@@ -1,0 +1,66 @@
+# environment
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# chroma / vector DBs
+chroma_db/
+*.db
+*.sqlite
+*.sqlite3
+
+# model files (ollama pulls, huggingface cache)
+*.bin
+*.gguf
+*.safetensors
+*.pt
+*.pth
+models/
+
+# huggingface cache
+.cache/
+
+# uploads / data
+uploads/
+data/
+*.pdf
+*.csv
+*.json
+!**/example*.json
+!**/schema*.json
+
+# logs
+*.log
+logs/
+langsmith_traces/
+
+# os
+.DS_Store
+Thumbs.db
+
+# ide
+.vscode/
+.idea/
+*.swp
+*.swo
