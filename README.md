@@ -14,8 +14,8 @@ This repo documents everything I build while learning the applied GenAI stack: L
 |---|---------|----------|--------|
 | 01 | [Hello LLM](./01-hello-llm/) | Groq API, streaming, tokens | ✅|
 | 02 | [Prompt playground](./02-prompt-playground/) | System prompts, temperature, prompt engineering | ✅|
-| 03 | [Multi-turn CLI chatbot](./03-cli-chatbot/) | Conversation history, context window | 🔄|
-| 04 | [Semantic similarity explorer](./04-semantic-similarity/) | Embeddings, cosine similarity, sentence-transformers | ⬜|
+| 03 | [Multi-turn CLI chatbot](./03-cli-chatbot/) | Conversation history, context window | ✅|
+| 04 | [Semantic similarity explorer](./04-semantic-similarity/) | Embeddings, cosine similarity, sentence-transformers | 🔄|
 | 05 | [Structured output extractor](./05-structured-outputs/) | JSON mode, output parsing | ⬜|
 | 06 | [Personal notes search engine](./06-notes-search/) | Chunking, ChromaDB, vector search | ⬜|
 | 07 | [PDF Q&A bot](./07-pdf-qa-bot/) | RAG pipeline, document loading | ⬜|
